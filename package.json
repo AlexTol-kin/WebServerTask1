@@ -1,0 +1,26 @@
+{
+  "name": "note-app",
+  "version": "1.0.0",
+  "description": "This is simple NodeJSApplication",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "serve": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "javascript"
+  ],
+  "author": "Aleksandr Tolstolytkin <tolstolytkin@mail.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.4",
+    "nodemon": "^3.1.4"
+  }
+}
